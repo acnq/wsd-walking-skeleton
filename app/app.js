@@ -9,7 +9,7 @@ const logNames = async () => {
 const handleRequest = (request) => {
   console.log(`Request to ${request.url}`);
   logNames();
-  return new Response("Hello world!");
+  return new Response("Hello world, from the universe!");
 };
 
 console.log("Launching server on port 7777");
